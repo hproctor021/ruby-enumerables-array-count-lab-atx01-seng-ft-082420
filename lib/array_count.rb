@@ -1,6 +1,6 @@
 def count_strings(array)
-  array.any? do |element| 
-    element.include? String
+  array.count do |element| 
+    element == String
   end
 end
 
